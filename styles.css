@@ -1,0 +1,69 @@
+.instagram {
+    display        :flex;
+    justify-content: space-around;
+    align-items    : center;
+    width          : 60%;
+    height         : 50px;
+    margin         : auto;
+}
+
+.spaceImageLeft, .spaceImageRight {
+    width: 100px;
+}
+
+.instagram-imgHeaderLeft {
+    width: 100px;
+    height: 45px;
+}
+
+.instagram-imgHeaderRight {
+    width   : 50px;
+    height  : 50px;
+    float:right;
+}
+
+.instagram-titleInstagram {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.title {
+    text-align: center;
+    font-family: lora;
+}
+.title::after {
+    content: "by Enrique Lopez";
+}
+
+
+
+ .post {
+    background-image: url("https://www.shutterstock.com/image-vector/colorful-smooth-gradient-color-background-260nw-1355837468.jpg");
+    width           : 50%;
+    margin          : auto;
+} 
+
+.post-header {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    color:white;
+}
+.post-header h4 {
+    padding-left:20px;
+}
+.post-header span {
+    padding-right: 20px;
+}
+
+img {
+    width: 100%;
+}
+p {
+    padding: 10px;
+    text-align: center;
+    color:gainsboro;
+}
+
+.post-footer {
+
+}
